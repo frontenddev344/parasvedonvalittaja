@@ -341,7 +341,7 @@ a.button_main:hover {
 .main-rate-star {
     display: flex;
     justify-content: center;
-    gap: 15px;
+    gap: 8px;
 }
 
 p.rated-star {
