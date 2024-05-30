@@ -302,6 +302,14 @@ a.button_main:hover {
 
 /* hotel styling end */
 /* below styling start */
+.below {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.below_bannertext p {
+    margin-bottom: 10px;
+}
 
 /* below styling end */
 /* detail styling start */
