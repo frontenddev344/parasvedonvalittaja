@@ -342,7 +342,7 @@ a.button_main:hover {
     display: flex;
     justify-content: center;
     gap: 8px;
-    margin:10px 0  20px;
+    margin: 10px 0 20px;
 }
 
 p.rated-star {
@@ -513,7 +513,7 @@ a:focus {
 
 .footer .container {
     background: #d1e4f3;
-    padding: 20px;
+    padding: 40px;
 }
 
 /*END FOOTER SOCIAL DESIGN*/
@@ -532,14 +532,14 @@ a:focus {
     font-size: 20px;
 }
 
-.single_footer h4::after {
+/* .single_footer h4::after {
     content: "";
     display: block;
     height: 2px;
     width: 40px;
     background: #fff;
     margin-top: 20px;
-}
+} */
 
 .single_footer p {
     color: var(--secondary-color);
@@ -664,7 +664,7 @@ a:focus {
     transition: all 0.3s ease 0s;
     margin: 0px 5px;
     font-size: 18px;
-    color: #fff;
+    color: var(--secondary-color);
     border-radius: 30px;
     width: 50px;
     height: 50px;
@@ -683,16 +683,16 @@ a:focus {
 
 /*END SOCIAL PROFILE CSS*/
 .copyright {
-    margin-top: 70px;
-    padding-top: 40px;
-    color: #fff;
+    margin-top: 40px;
+    padding-top: 20px;
+    color: var(--main-color);
     font-size: 15px;
-    border-top: 1px solid rgba(255, 255, 255, 0.4);
+    border-top: 1px solid #425d5f29;
     text-align: center;
 }
 
 .copyright a {
-    color: #fff;
+    color: var(--main-color);
     transition: all 0.2s ease 0s;
 }
 
