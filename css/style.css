@@ -304,6 +304,7 @@ a.button_main:hover {
 .below {
     padding: 40px 0;
     text-align: center;
+    background: #d1e4f33b;
 }
 
 .below_bannertext p {
@@ -379,7 +380,7 @@ p.rated-star {
 .privacy__section {
     position: relative;
     height: 400px;
-    background-image: url(../img/privacybanner.jpg);
+    background-image: url(../image/privacybanner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -406,7 +407,7 @@ p.rated-star {
 }
 
 .privacy-policy a {
-    color: #000;
+    color:#fff;
     font-weight: 700;
 }
 
