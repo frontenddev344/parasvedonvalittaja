@@ -175,6 +175,22 @@ a.button_main:hover {
 }
 
 /* home page start */
+/* casino popular styling start */
+.casino img {
+    height: 350px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.casino h4 {
+    text-align: center;
+}
+
+.casino_popular{
+    padding: 40px 0;
+}
+
+/* casino popular styling end */
 .home_banner {
     height: 500px;
     background-image: url(../image/homebanner.jpg);
@@ -241,7 +257,7 @@ a.button_main:hover {
 .detail {
     padding: 40px 0;
     background: #d1e4f33b;
-    
+
 }
 
 .detail_img img {
