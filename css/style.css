@@ -188,13 +188,23 @@ a.button_main:hover {
     color: var(--secondary-color);
 }
 
-.casino_popular{
+.casino_popular {
     padding: 40px 0;
-    
+
 }
+
+.casino_heading {
+    position: relative;
+}
+
+.casino_heading.overlay h2 {
+    color: var(--secondary-color);
+}
+
 .casino_heading.overlay span {
-    font-size: 140px;
+    font-size: 70px;
     position: absolute;
+    text-align: center;
     top: 24px;
     left: 0;
     right: 0;
@@ -206,6 +216,7 @@ a.button_main:hover {
     -o-pointer-events: none;
     opacity: .03;
 }
+
 /* casino popular styling end */
 .home_banner {
     height: 500px;
