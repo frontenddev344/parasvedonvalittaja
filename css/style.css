@@ -380,7 +380,7 @@ p.rated-star {
 .privacy__section {
     position: relative;
     height: 400px;
-    background-image: url(../image/privacybanner.jpg);
+    background-image: url(../image/pri);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -407,12 +407,12 @@ p.rated-star {
 }
 
 .privacy-policy a {
-    color:#fff;
+    color: #000;
     font-weight: 700;
 }
 
 .privacy__section .banner__text h1 {
-    color: var(--main-color);
+    color: #fff;
     text-transform: uppercase;
 }
 
