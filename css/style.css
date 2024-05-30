@@ -421,7 +421,7 @@ p.rated-star {
 .terms__section {
     position: relative;
     height: 400px;
-    background-image: url(../img/termsbanner.jpg);
+    background-image: url(../image/termsbanner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
