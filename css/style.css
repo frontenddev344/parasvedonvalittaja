@@ -189,25 +189,39 @@ a.button_main:hover {
 }
 
 .casino_popular {
-    padding: 40px 0;
+    padding: 60px 0;
 
 }
 
 .casino_heading {
     position: relative;
+    text-align: center;
+}
+
+.casino_heading img {
+    margin: 10px 0 0px 0;
+    width: 160px;
 }
 
 .casino_heading.overlay h2 {
     color: var(--secondary-color);
+    margin: 0 0 12px 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+.casino_heading.overlay {
+    margin-bottom: 30px;
 }
 
 .casino_heading.overlay span {
-    font-size: 70px;
+    font-size: 110px;
     position: absolute;
     text-align: center;
-    top: 24px;
+    top: 27px;
     left: 0;
     right: 0;
+    text-transform: uppercase;
     line-height: 0 !important;
     pointer-events: none;
     -webkit-pointer-events: none;
@@ -215,6 +229,15 @@ a.button_main:hover {
     -ms-pointer-events: none;
     -o-pointer-events: none;
     opacity: .03;
+}
+
+.casino_heading.overlay p {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 13px;
+    line-height: 1em;
 }
 
 /* casino popular styling end */
