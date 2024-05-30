@@ -338,6 +338,16 @@ a.button_main:hover {
     text-align: left;
 }
 
+.main-rate-star {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+p.rated-star {
+    color: #f9af1e;
+}
+
 /* hotel detail styling end */
 /* detail styling start */
 .detail {
