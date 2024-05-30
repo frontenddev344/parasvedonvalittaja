@@ -341,7 +341,7 @@ a.button_main:hover {
     display: flex;
     justify-content: center;
     gap: 8px;
-    margin: 20px 0;
+    margin:10px 0  20px;
 }
 
 p.rated-star {
