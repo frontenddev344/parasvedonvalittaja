@@ -184,10 +184,13 @@ a.button_main:hover {
 
 .casino h4 {
     text-align: center;
+    margin-top: 10px;
+    color: var(--secondary-color);
 }
 
 .casino_popular{
     padding: 40px 0;
+    
 }
 
 /* casino popular styling end */
