@@ -281,6 +281,26 @@ a.button_main:hover {
 }
 
 /* home page end */
+/* hotel styling start */
+.hotel_banner {
+    height: 500px;
+    background-image: url(../image/homebanner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.hotel_banner::before {
+    position: absolute;
+    content: '';
+    background: #000000a8;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+/* hotel styling end */
 /* detail styling start */
 .detail-picture {
     display: flex;
