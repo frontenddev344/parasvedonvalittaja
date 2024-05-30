@@ -242,12 +242,12 @@ a.button_main:hover {
     padding: 40px 0;
 }
 
-.casino-picture img {
+.detail_img img {
     height: 350px;
     object-fit: cover;
 }
 
-.hotel_box {
+.detail_box {
     display: flex;
     flex-direction: column;
     align-items: start;
