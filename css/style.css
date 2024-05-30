@@ -146,9 +146,9 @@ nav.sticky {
 
 /* navbar stylng end */
 a.button_main {
-    background: var(--primary-color);
+    background: var(--secondary-color);
     padding: 10px 40px 10px 40px;
-    border: 1px solid var(--primary-color);
+    border: 1px solid var(--secondary-color);
     color: #fff;
     font-weight: 700;
 }
@@ -159,8 +159,8 @@ a.button_main {
 
 a.button_main:hover {
     background: transparent;
-    border: 1px solid var(--primary-color);
-    color: var(--primary-color);
+    border: 1px solid var(--secondary-color);
+    color: var(--secondary-color);
 }
 
 .banner_head:after {
