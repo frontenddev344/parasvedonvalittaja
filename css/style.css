@@ -192,7 +192,20 @@ a.button_main:hover {
     padding: 40px 0;
     
 }
-
+.casino_heading.overlay span {
+    font-size: 140px;
+    position: absolute;
+    top: 24px;
+    left: 0;
+    right: 0;
+    line-height: 0 !important;
+    pointer-events: none;
+    -webkit-pointer-events: none;
+    -moz-pointer-events: none;
+    -ms-pointer-events: none;
+    -o-pointer-events: none;
+    opacity: .03;
+}
 /* casino popular styling end */
 .home_banner {
     height: 500px;
