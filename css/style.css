@@ -425,6 +425,10 @@ button.toggle_btn {
     background: none;
 }
 
+.view {
+    margin: 10px 0;
+}
+
 /* las vegas styling end */
 /* detail styling start */
 .detail {
