@@ -422,6 +422,11 @@ p.rated-star {
 
 }
 
+button#toggle {
+    border: none;
+    background: none;
+}
+
 /* las vegas styling end */
 /* detail styling start */
 .detail {
