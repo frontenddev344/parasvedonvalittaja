@@ -145,7 +145,6 @@ header {
 .dropbtn {
     background-color: transparent;
     color: white;
-    padding: 15px 20px;
     border: none;
     cursor: pointer;
     display: flex;
