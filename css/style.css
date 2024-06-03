@@ -482,9 +482,10 @@ p.rated-star {
 }
 
 .thessa-inner {
-    border: 1px solid var(--secondary-color);
+    border: 1px solid #425d5f2e;
     padding: 20px;
     height: 100%;
+    box-shadow: 1px 1px 5px;
 }
 
 .content {
@@ -505,6 +506,10 @@ button.toggle_btn {
     text-align: center;
     margin: auto;
     display: block;
+}
+
+.thessa_main_inner {
+    margin: 30px 0 10px;
 }
 
 /* las vegas styling end */
