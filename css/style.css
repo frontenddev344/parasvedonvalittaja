@@ -522,6 +522,26 @@ button.toggle_btn {
 }
 
 /* aria styling end */
+/* aria styling start */
+.Caesars_banner {
+    height: 500px;
+    background-image: url(../image/homebanner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.Caesars_banner::before {
+    position: absolute;
+    content: '';
+    background: #000000a8;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+/* aria styling end */
 /* detail styling start */
 .detail {
     padding: 40px 0;
