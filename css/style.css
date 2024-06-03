@@ -240,6 +240,11 @@ a.button_main:hover {
     line-height: 1em;
 }
 
+.hotel_btn.home {
+    justify-content: center;
+    margin-top: 20px;
+}
+
 /* casino popular styling end */
 .home_banner {
     height: 500px;
@@ -278,6 +283,7 @@ a.button_main:hover {
     font-size: 45px;
     text-transform: uppercase;
 }
+
 
 /* home page end */
 /* hotel styling start */
