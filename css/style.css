@@ -411,6 +411,17 @@ p.rated-star {
     height: 100%;
 }
 
+#text {
+    display: none;
+}
+
+.btn-container {
+    margin: auto;
+    height: 44px;
+    width: 166.23px;
+
+}
+
 /* las vegas styling end */
 /* detail styling start */
 .detail {
@@ -438,6 +449,7 @@ p.rated-star {
 }
 
 /* detail styling end */
+
 /* privacy styling start */
 .privacy__section {
     position: relative;
