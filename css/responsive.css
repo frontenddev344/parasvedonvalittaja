@@ -168,6 +168,9 @@
     .form_box {
         width: 100%;
     }
+    .thessa_main_inner {
+        margin: 20px 0 10px;
+    }
 }
 
 @media (max-width: 767px) {
