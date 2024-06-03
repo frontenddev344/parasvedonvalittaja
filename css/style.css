@@ -705,6 +705,10 @@ button.toggle_btn {
     padding: 40px 0;
 }
 
+section.terms_conditons h3 {
+    margin-top: 10px;
+}
+
 .terms_conditons a {
     color: #000;
     font-weight: 700;
