@@ -405,6 +405,11 @@ p.rated-star {
     margin-bottom: 50px;
 }
 
+.thessa_main_inner h2 {
+    color: var(--main-color);
+    padding-bottom: 0;
+}
+
 .thessa_detail {
     padding: 80px 0;
 
