@@ -415,16 +415,13 @@ p.rated-star {
     display: none;
 }
 
-.btn-container {
+button#toggle_btn {
     margin-top: 10px;
     height: 44px;
-    width: 166.23px;
-
-}
-
-button#toggle {
     border: none;
     background: none;
+
+
 }
 
 /* las vegas styling end */
