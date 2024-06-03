@@ -350,6 +350,68 @@ p.rated-star {
 }
 
 /* hotel detail styling end */
+/* las vegas styling start */
+.thessa_banner {
+    height: 400px;
+    background-image: url(../img/thessabanner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.thessa_banner::before {
+    position: absolute;
+    content: '';
+    background: #000000a8;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.thessa-inner img {
+    transition: all .3s linear;
+}
+
+.thessa-inner img:hover {
+    transform: scale(1.1);
+}
+
+.thessa-inner img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.thessa-inner article {
+    overflow: hidden;
+    height: 200px;
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.thessa_main_inner p {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.thessa_main_inner {
+    margin-bottom: 50px;
+}
+
+.thessa_detail {
+    padding: 80px 0;
+
+}
+
+.thessa-inner {
+    border: 1px solid #000;
+    padding: 10px;
+    height: 100%;
+}
+
+/* las vegas styling end */
 /* detail styling start */
 .detail {
     padding: 40px 0;
