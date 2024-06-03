@@ -673,6 +673,10 @@ button.toggle_btn {
     text-transform: uppercase;
 }
 
+section.privacy-policy h3 {
+    margin-top: 10px;
+}
+
 /* privacy styling end */
 /* terms styling start */
 .terms__section {
