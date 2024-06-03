@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Read More Toggle</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        .content {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+<div>
+    <button class="toggle_btn">Read More</button>
+    <div class="content">
+        <p>This is the content that will be toggled.</p>
+    </div>
+</div>
+
+<div>
+    <button class="toggle_btn">Read More</button>
+    <div class="content">
+        <p>This is another piece of content that will be toggled.</p>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        $(".toggle_btn").click(function () {
+            var $this = $(this);
+            var elem = $this.text();
+            if (elem == "Read More") {
+                //Stuff to do when btn is in the read more state
+                $this.text("Read Less");
+                $this.next(".content").slideDown();
+            } else {
+                //Stuff to do when btn is in the read less state
+                $this.text("Read More");
+                $this.next(".content").slideUp();
+            }
+        });
+    });
+</script>
+
+</body>
+</html>
