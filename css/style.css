@@ -136,6 +136,24 @@ header {
     z-index: 99;
 }
 
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+ul.dropdown-content {
+    display: none;
+}
+
+.dropdown-content {
+    position: absolute;
+    background-color: #f2fbe9;
+    min-width: 220px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    color: #0C0B0B;
+}
+
 /* 
 nav.sticky {
     background: var(--primary-color);
