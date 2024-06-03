@@ -415,6 +415,12 @@ p.rated-star {
     display: none;
 }
 
+button.toggle_btn {
+    border: beige;
+    background: none;
+    margin: 10px 0;
+}
+
 /* las vegas styling end */
 /* detail styling start */
 .detail {
