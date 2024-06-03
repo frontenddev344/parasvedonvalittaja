@@ -531,7 +531,7 @@ button.toggle_btn {
 /* Venetian styling start */
 .Venetian_banner {
     height: 400px;
-    background-image: url(../image/homebanner.jpg);
+    background-image: url(../image/venteinanbanner.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -551,7 +551,7 @@ button.toggle_btn {
 /* waynn banner styling start */
 .waynn_banner {
     height: 400px;
-    background-image: url(../image/homebanner.jpg);
+    background-image: url(../image/waynnbanner.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -571,7 +571,7 @@ button.toggle_btn {
 /* aria styling start */
 .aria_banner {
     height: 400px;
-    background-image: url(../image/homebanner.jpg);
+    background-image: url(../image/ariabanner.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -591,7 +591,7 @@ button.toggle_btn {
 /* aria styling start */
 .Caesars_banner {
     height: 400px;
-    background-image: url(../image/homebanner.jpg);
+    background-image: url(../image/caesarsbanner.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -611,7 +611,7 @@ button.toggle_btn {
 /* mgm styling start */
 .MGM_banner {
     height: 400px;
-    background-image: url(../image/homebanner.jpg);
+    background-image: url(../image/mgmbanner.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
