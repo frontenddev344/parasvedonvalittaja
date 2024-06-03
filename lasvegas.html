@@ -245,15 +245,15 @@
 
     <script>
         $(document).ready(function () {
-            $("#toggle").click(function () {
-                var elem = $("#toggle").text();
+            $("#toggle_btn").click(function () {
+                var elem = $("#toggle_btn").text();
                 if (elem == "Read More") {
                     //Stuff to do when btn is in the read more state
-                    $("#toggle").text("Read Less");
+                    $("#toggle_btn").text("Read Less");
                     $("#text").slideDown();
                 } else {
                     //Stuff to do when btn is in the read less state
-                    $("#toggle").text("Read More");
+                    $("#toggle_btn").text("Read More");
                     $("#text").slideUp();
                 }
             });
