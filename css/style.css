@@ -289,7 +289,7 @@ a.button_main:hover {
 /* hotel styling start */
 .hotel_banner {
     height: 400px;
-    background-image: url(../image/homebanner.jpg);
+    background-image: url(../image/hotelbanner.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -451,7 +451,7 @@ button.toggle_btn {
 /* Bellagio styling start */
 .Bellagio_banner {
     height: 400px;
-    background-image: url(../image/homebanner.jpg);
+    background-image: url(../image/ballagio.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
