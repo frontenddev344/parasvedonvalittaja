@@ -94,8 +94,11 @@
                             lainvalvonnan
                             historiaan Amerikassa.<br>
                             Interaktiivisia näyttelyitä ja esineitä kuuluisilta gangstereilta.</span>
-                        <span><b>$200 per yö</b></span>
-                        <button id="toggle_btn"><i class="fa fa-sort-desc" aria-hidden="true"></i></button>
+                        <p><b>$200 per yö</b></p>
+                        <button class="toggle_btn">Read More</button>
+                        <div class="content">
+                            <p>This is the content that will be toggled.</p>
+                        </div>
                         <div class="hotel_btn">
                             <a href="https://themobmuseum.org/" class="button_main">Vieraile
                                 verkkosivustolla</a>
@@ -245,16 +248,17 @@
 
     <script>
         $(document).ready(function () {
-            $("#toggle_btn").click(function () {
-                var elem = $("#toggle_btn").text();
+            $(".toggle_btn").click(function () {
+                var $this = $(this);
+                var elem = $this.text();
                 if (elem == "Read More") {
                     //Stuff to do when btn is in the read more state
-                    $("#toggle_btn").text("Read Less");
-                    $("#text").slideDown();
+                    $this.text("Read Less");
+                    $this.next(".content").slideDown();
                 } else {
                     //Stuff to do when btn is in the read less state
-                    $("#toggle_btn").text("Read More");
-                    $("#text").slideUp();
+                    $this.text("Read More");
+                    $this.next(".content").slideUp();
                 }
             });
         });
