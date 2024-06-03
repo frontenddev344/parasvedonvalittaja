@@ -338,6 +338,11 @@ a.button_main:hover {
     text-align: left;
 }
 
+.hotel_btn {
+    display: flex;
+    gap: 10px;
+}
+
 .main-rate-star {
     display: flex;
     justify-content: center;
@@ -416,9 +421,8 @@ p.rated-star {
 }
 
 button.toggle_btn {
-    border: beige;
+    border: unset;
     background: none;
-    margin: 10px 0;
 }
 
 /* las vegas styling end */
