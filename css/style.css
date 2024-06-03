@@ -434,6 +434,13 @@ button.toggle_btn {
     margin: 10px 0;
 }
 
+.thessa_main_inner img {
+    width: 160px;
+    text-align: center;
+    margin: auto;
+    display: block;
+}
+
 /* las vegas styling end */
 /* detail styling start */
 .detail {
