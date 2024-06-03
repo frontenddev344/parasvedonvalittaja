@@ -142,21 +142,6 @@ header {
     transform: translateY(0);
 }
 
-ul.subnav {
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 100%;
-    width: 240px;
-    background: var(--primary-color);
-    color: var(--secondary-color);
-    padding: 20px;
-    opacity: 0;
-    visibility: hidden;
-    transition: all 0.2s linear;
-    transform: translateY(50px);
-}
-
 .dropbtn {
     background-color: transparent;
     color: white;
@@ -173,6 +158,21 @@ ul.subnav {
     position: relative;
     display: inline-block;
 }
+
+ul.subnav {
+    display: block;
+    position: absolute;
+    top: 100%;
+    width: 240px;
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 20px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.2s linear;
+    transform: translateY(50px);
+}
+
 
 .dropbtn i {
     margin-left: 8px;
