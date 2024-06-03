@@ -282,7 +282,7 @@ a.button_main:hover {
 /* home page end */
 /* hotel styling start */
 .hotel_banner {
-    height: 500px;
+    height: 400px;
     background-image: url(../image/homebanner.jpg);
     background-size: cover;
     background-position: center;
@@ -444,7 +444,7 @@ button.toggle_btn {
 /* las vegas styling end */
 /* Bellagio styling start */
 .Bellagio_banner {
-    height: 500px;
+    height: 400px;
     background-image: url(../image/homebanner.jpg);
     background-size: cover;
     background-position: center;
@@ -464,7 +464,7 @@ button.toggle_btn {
 /* Bellagio styling end */
 /* Venetian styling start */
 .Venetian_banner {
-    height: 500px;
+    height: 400px;
     background-image: url(../image/homebanner.jpg);
     background-size: cover;
     background-position: center;
@@ -484,7 +484,7 @@ button.toggle_btn {
 /* Venetian styling end */
 /* waynn banner styling start */
 .waynn_banner {
-    height: 500px;
+    height: 400px;
     background-image: url(../image/homebanner.jpg);
     background-size: cover;
     background-position: center;
@@ -504,7 +504,7 @@ button.toggle_btn {
 /* waynn banner styling end */
 /* aria styling start */
 .aria_banner {
-    height: 500px;
+    height: 400px;
     background-image: url(../image/homebanner.jpg);
     background-size: cover;
     background-position: center;
@@ -524,7 +524,7 @@ button.toggle_btn {
 /* aria styling end */
 /* aria styling start */
 .Caesars_banner {
-    height: 500px;
+    height: 400px;
     background-image: url(../image/homebanner.jpg);
     background-size: cover;
     background-position: center;
@@ -544,7 +544,7 @@ button.toggle_btn {
 /* aria styling end */
 /* mgm styling start */
 .MGM_banner {
-    height: 500px;
+    height: 400px;
     background-image: url(../image/homebanner.jpg);
     background-size: cover;
     background-position: center;
@@ -564,7 +564,7 @@ button.toggle_btn {
 /* mgm styling end */
 /* Cosmopolitan styling start */
 .Cosmopolitan_banner {
-    height: 500px;
+    height: 400px;
     background-image: url(../image/homebanner.jpg);
     background-size: cover;
     background-position: center;
