@@ -155,7 +155,8 @@ header {
     font-weight: 600;
     font-size: inherit !important;
     position: relative;
-    display: inline-block;
+    display: inline-flex;
+    align-items: start;
 }
 
 ul.subnav {
@@ -176,6 +177,7 @@ ul.subnav {
 .dropbtn i {
     margin-left: 8px;
     color: var(--secondary-color);
+    line-height: 0.65;
 }
 
 /* 
