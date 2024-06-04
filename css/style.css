@@ -237,6 +237,10 @@ a.button_main:hover {
 
 }
 
+.casino {
+    margin-bottom: 20px;
+}
+
 .casino_heading {
     position: relative;
     text-align: center;
@@ -285,6 +289,7 @@ a.button_main:hover {
 }
 
 .hotel_btn.home {
+    align-items: center;
     justify-content: center;
     margin-top: 20px;
 }
