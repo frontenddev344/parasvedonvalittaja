@@ -168,9 +168,11 @@
     .form_box {
         width: 100%;
     }
+
     .thessa_main_inner {
         margin: 20px 0 10px;
     }
+
     .detail_box {
         margin-left: 0px;
         height: auto;
@@ -186,6 +188,7 @@
         font-size: 32px;
         padding: 30px 10px;
     }
+
     .home_detail {
         padding: 20px 0;
     }
@@ -202,6 +205,7 @@
     .banner_head:after {
         width: 41%;
     }
+
     .casino_heading.overlay span {
         font-size: 60px;
     }
@@ -209,6 +213,15 @@
 }
 
 @media (max-width: 575px) {
+    body.toggle .navlink {
+        width: 100%;
+
+    }
+
+    .navbar .navlink {
+        margin-left: 0px;
+    }
+
     .box img {
         width: 90px;
     }
