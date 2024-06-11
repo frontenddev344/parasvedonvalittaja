@@ -45,8 +45,8 @@
         display: flex;
         flex-direction: column;
         align-items: start;
+        position: static;
     }
-
     .navbar .navlink {
         margin-left: -15px;
 
