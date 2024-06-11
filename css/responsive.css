@@ -41,12 +41,21 @@
         z-index: 9;
     }
 
+    ul.subnav {
+        display: none;
+    }
+
+    .navlink ul li:hover ul.subnav {
+        display: block;
+    }
+
     .navlink ul {
         display: flex;
         flex-direction: column;
         align-items: start;
         position: static;
     }
+
     .navbar .navlink {
         margin-left: -15px;
 
