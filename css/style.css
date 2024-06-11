@@ -498,6 +498,9 @@ p.rated-star {
     padding: 20px;
     height: 100%;
     box-shadow: 1px 1px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .content {
