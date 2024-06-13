@@ -189,6 +189,10 @@
 }
 
 @media (max-width: 767px) {
+    .casino {
+        margin-bottom: 40px;
+    }
+
     .banner_box h1 {
         font-size: 32px;
     }
