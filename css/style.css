@@ -234,10 +234,19 @@ a.button_main:hover {
 
 /* home page start */
 /* casino popular styling start */
-.casino img {
+.casino-img{
     height: 350px;
+    overflow: hidden;
+
+}
+.casino-img:hover img{
+    transform: scale(1.3);
+}
+.casino img {
+    height: 100%;
     object-fit: cover;
     width: 100%;
+    transition: all 0.3s linear;
 }
 
 .casino h4 {
@@ -307,7 +316,19 @@ a.button_main:hover {
     justify-content: center;
     margin-top: 20px;
 }
-
+.Stars {
+    --percent: calc(var(--rating) / 5 * 100%);
+    display: inline-block;
+    font-size: 30px;
+    line-height: 1.1;
+  }
+  .Stars::before {
+    content: "★★★★★";
+    letter-spacing: 3px;
+    background: linear-gradient(90deg, #f9af1e var(--percent), #000 var(--percent));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 /* casino popular styling end */
 .home_banner {
     height: 500px;
@@ -525,6 +546,7 @@ p.rated-star {
 button.toggle_btn {
     border: unset;
     background: none;
+    text-decoration: underline;
 }
 
 .view {
